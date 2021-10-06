@@ -1,3 +1,5 @@
+
+console.log('next.config.js 1')
 const path = require('path');
 const sourcebit = require('sourcebit');
 const sourcebitConfig = require('./sourcebit.js');
