@@ -6,9 +6,10 @@ const sourcebitConfig = require('./sourcebit.js');
 const withStackbitComponents = require('@stackbit/components/next-stackbit-components')({
     componentsMapPath: '.stackbit/components-map.json'
 });
-console.log('next.config.js 1')
+console.log('next.config.js 2')
 sourcebit.fetch(sourcebitConfig);
 
+console.log('next.config.js 3')
 module.exports = withStackbitComponents({
     trailingSlash: true,
     devIndicators: {
@@ -48,3 +49,6 @@ module.exports = withStackbitComponents({
         return config;
     }
 });
+
+
+console.log('next.config.js 4')
