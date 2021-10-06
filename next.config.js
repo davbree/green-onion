@@ -14,7 +14,7 @@ sourcebit.fetch(sourcebitConfig);
 
 
 console.log('next.config.js 3')
-module.exports = withStackbitComponents({
+module.exports = {
     trailingSlash: true,
     devIndicators: {
         autoPrerender: false
