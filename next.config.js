@@ -52,7 +52,7 @@ module.exports = {
 
         return config;
     }
-});
+};
 
 
 console.log('next.config.js 4')
