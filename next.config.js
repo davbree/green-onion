@@ -12,9 +12,6 @@ console.log('next.config.js 2')
 // sourcebit.fetch(sourcebitConfig);
 
 
-
-
-
 console.log('next.config.js 3')
 module.exports = {
     trailingSlash: true,
