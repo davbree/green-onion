@@ -6,7 +6,7 @@ const sourcebitConfig = require('./sourcebit.js');
 const withStackbitComponents = require('@stackbit/components/next-stackbit-components')({
     componentsMapPath: '.stackbit/components-map.json'
 });
-
+console.log('next.config.js 1')
 sourcebit.fetch(sourcebitConfig);
 
 module.exports = withStackbitComponents({
