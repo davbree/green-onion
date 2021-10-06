@@ -3,6 +3,7 @@ import { sourcebitDataClient } from 'sourcebit-target-next';
 import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
 import { getDynamicComponent } from '@stackbit/components/components-registry';
 
+
 function Page(props) {
     const { page, site } = props;
     const { layout } = page;
