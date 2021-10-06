@@ -13,6 +13,7 @@ console.log('next.config.js 2')
 
 
 
+
 console.log('next.config.js 3')
 module.exports = {
     trailingSlash: true,
